@@ -1,0 +1,33 @@
+.list{
+    padding-top: 30px;
+}
+.list-row{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: end;
+}
+.list-row_txt{
+    text-align: left;
+}
+.list-row_txt small{
+    font-size: 12px;
+    color: #777;
+}
+.list-row_txt p{
+    line-height: 1;
+}
+.list-row button{
+    border-radius: 12px;
+    padding: 2px 12px;
+    border:1px solid #444;
+    margin-right: 2px;
+}
+.list-row button:hover{
+    background-color: rgb(3, 3, 107);
+    border:1px solid rgb(3, 3, 107);
+    color: #fff;
+    cursor: pointer;
+}
+.list-row button:first-of-type{
+    margin-left: 8px;
+}

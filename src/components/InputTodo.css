@@ -1,0 +1,23 @@
+.InputTodo{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.inputField{
+    border-radius: 2px;
+    border:1px solid #bbb;
+    padding: 6px 16px;
+    font-size: 18px;
+    outline: none;
+}
+.inputBtn{
+    border-radius: 2px;
+    padding: 7px 15px;
+    border:1px solid #333;
+}
+.inputBtn:hover{
+    background-color: #333;
+    border:1px solid #333;
+    color: #fff;
+    cursor: pointer;
+}
